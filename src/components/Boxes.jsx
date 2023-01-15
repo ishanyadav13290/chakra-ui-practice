@@ -2,11 +2,11 @@ import { Flex, Card,Divider, ButtonGroup, Button, CardHeader, CardBody, CardFoot
 
 function Boxes({data}){
     console.log(data)
-    return <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+    return <Grid templateColumns='repeat(3, 1fr)' gap={6} p="20px">
         {data.map(el=>{
         return <Card w='sm' key={el.id} id={el.id} m="auto">
         <CardBody>
-          <Image
+          <Image maxW="sm"
             src={el.thumbnailUrl}
             alt='Green double couch with wooden legs'
             borderRadius='lg'
