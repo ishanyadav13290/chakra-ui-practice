@@ -1,4 +1,4 @@
-import { Button, Center, Spacer } from "@chakra-ui/react";
+import { Button, Center } from "@chakra-ui/react";
 
 function PagesButton({page,setPage}){
     function IncreasePage(){
