@@ -1,3 +1,6 @@
+#About This Project
+This is a practice project where I've built a basic template structure of a E-Commerce website using React and Chakra UI.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
