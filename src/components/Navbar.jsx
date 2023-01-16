@@ -2,7 +2,7 @@ import { Flex, Box, Spacer } from "@chakra-ui/react"
 
 function Navbar(){
     return (
-        <Flex p="20px" mb="" bg="black"  w="100%" zIndex={1}>
+        <Flex p="20px" mb="" bg="black" position="fixed" top="0" w="100%" zIndex={1}>
   <Box p='4' bg='red.400' ml="5%">
   Logo
   </Box>
